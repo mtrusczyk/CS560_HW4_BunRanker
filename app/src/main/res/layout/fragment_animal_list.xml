@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".AnimalList">
+
+    <ImageView
+        android:id="@+id/bun1"
+        android:layout_width="170dp"
+        android:layout_height="93dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bun1"
+        app:layout_constraintEnd_toStartOf="@+id/bun2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bun2" />
+
+    <ImageView
+        android:id="@+id/bun2"
+        android:layout_width="170dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bun2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bun1"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <ImageView
+        android:id="@+id/bun3"
+        android:layout_width="170dp"
+        android:layout_height="93dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bun3"
+        app:layout_constraintEnd_toStartOf="@+id/bun4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bun4" />
+
+    <ImageView
+        android:id="@+id/bun4"
+        android:layout_width="170dp"
+        android:layout_height="93dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bun4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bun3"
+        app:layout_constraintTop_toBottomOf="@+id/bun2Rating" />
+
+    <TextView
+        android:id="@+id/bun1Rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/bun1"
+        app:layout_constraintStart_toStartOf="@+id/bun1"
+        app:layout_constraintTop_toBottomOf="@+id/bun1" />
+
+    <TextView
+        android:id="@+id/bun2Rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/bun2"
+        app:layout_constraintStart_toStartOf="@+id/bun2"
+        app:layout_constraintTop_toTopOf="@+id/bun1Rating" />
+
+    <TextView
+        android:id="@+id/bun3Rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/bun3"
+        app:layout_constraintStart_toStartOf="@+id/bun3"
+        app:layout_constraintTop_toBottomOf="@+id/bun3" />
+
+    <TextView
+        android:id="@+id/bun4Rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/bun4"
+        app:layout_constraintStart_toStartOf="@+id/bun4"
+        app:layout_constraintTop_toTopOf="@+id/bun3Rating" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/header"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/subHeading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

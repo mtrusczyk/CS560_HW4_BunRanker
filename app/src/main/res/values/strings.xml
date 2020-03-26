@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CS560_HW4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="header">Which bun would make the best king?</string>
+    <string name="subHeading">Press on the images below to rate your favorite bun</string>
+    <string name="voting">How good of a king would this bun make?</string>
+</resources>
